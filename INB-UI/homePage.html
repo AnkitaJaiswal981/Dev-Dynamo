@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INB Home Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #0080ff;
+           
+            padding: 10px 0;
+            text-align: center;
+            animation: slideIn 1s ease-in-out;
+        }
+
+        .welcome-text{
+            color: #fff;
+        }
+        @keyframes slideIn {
+            0% {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #0080ff;
+        }
+
+        .account {
+            border: 2px solid #0080ff;
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .account h2 {
+            font-size: 20px;
+            margin: 0;
+            color: #0080ff;
+        }
+
+        .account p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+      
+        <header>
+            <h1 style="color: #fff;">Welcome to INB Bank</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="./aboutus.html">About Us</a></li>
+                    <li><a href="./contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+    </header>
+
+    <div class="container">
+      
+        <h2 style="color: #0080ff;">Your Accounts</h2>
+    
+
+        <div class="account">
+            <h2>Savings Account</h2>
+            <p>Account Number: 1234567890</p>
+            <p>Balance: $10,000.00</p>
+        </div>
+
+        <div class="account">
+            <h2>Current Account</h2>
+            <p>Account Number: 0987654321</p>
+            <p>Balance: $5,000.00</p>
+        </div>
+    </div>
+</body>
+</html>
